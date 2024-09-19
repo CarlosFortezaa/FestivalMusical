@@ -1,0 +1,8 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.footer {
+  background-color: v.$alternativeRock;
+  padding: 2rem;
+  text-align: center;
+}

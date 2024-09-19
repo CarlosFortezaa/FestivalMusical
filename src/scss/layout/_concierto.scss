@@ -1,0 +1,13 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.sobre-concierto {
+  @include m.contenedor;
+  @include m.desktop {
+    @include m.grid(2);
+  }
+
+  .fecha {
+    font-weight: bold;
+  }
+}
